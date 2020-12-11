@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background-color:rgba(240, 34,227, 0.2);
+}
+
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color:rgba(255, 5,238, 0.72);
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 2px 16px;
+  text-decoration: none;
+}
+
+.topnav li{
+	list-style:none;
+}
+
+.topnav ul{
+  display:flex;
+  justify-content:space-around;
+}
+
+
+
+.topnav a:hover {
+  background-color:#FFD1FB;
+  color:black;
+}
+
+p{
+	text-indent:2em;
+	text-align:justify;
+
+}
+
+br{
+	text-indent:2em;
+}
+
+.titulo-card{
+  color:#F022E3;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card-sobre {
+  height: 500px;
+}
+
+.card-formacao {
+  height: 340px;
+}
+
+.card-habilidades{
+	height:350px;
+}
+
+.card-interesse{
+	height:350px;
+}
+.sobre,
+.formacao,
+.habilidades,
+.interesse{
+	float:left;
+	margin-right:2em;
+	border-radius: 20%
+}
+
+@media(min-width:960px){
+.avatar {
+ border-radius: 18%
+ 
+}
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
